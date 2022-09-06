@@ -6,4 +6,5 @@ The processor supports:
   - RAW Hazard
   - LDR Hazard
   - Control Hazards due to Branch or PC write
+
 and has a 4-bit global predictor with index sharing.
