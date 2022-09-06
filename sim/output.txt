@@ -1,0 +1,1300 @@
+PC:    0 |  SUB R0, R15, R15                |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   0, R4 =   0, R5 =   0, R6 =   0
+PC:    0 |  SUB R0, R15, R15                |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   0, R4 =   0, R5 =   0, R6 =   0
+PC:    0 |  SUB R0, R15, R15                |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   0, R4 =   0, R5 =   0, R6 =   0
+PC:    4 |  ADD R1, R0, #50                 |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   0, R4 =   0, R5 =   0, R6 =   0
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   0, R4 =   0, R5 =   0, R6 =   0
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   0, R4 =   0, R5 =   0, R6 =   0
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   0, R4 =   0, R5 =   0, R6 =   0
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   0, R4 =   0, R5 =   0, R6 =   0
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   0, R3 =   0, R4 =   0, R5 =   0, R6 =   0
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   4, R3 =   0, R4 =   0, R5 =   0, R6 =   0
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   4, R3 =   1, R4 =   0, R5 =   0, R6 =   0
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   4, R3 =   1, R4 =   3, R5 =   0, R6 =   0
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   4, R3 =   3, R4 =   3, R5 =   0, R6 =   0
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   3, R3 =   3, R4 =   3, R5 =   0, R6 =   0
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   3, R3 =   3, R4 =   3, R5 =   0, R6 =   0
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   3, R3 =   3, R4 =   3, R5 =   0, R6 =   0
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   3, R3 =   3, R4 =   3, R5 =   0, R6 =   0
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   3, R3 =   4, R4 =   3, R5 =   0, R6 =   0
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   3, R3 =   4, R4 =   6, R5 =   0, R6 =   0
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   3, R3 =   3, R4 =   6, R5 =   0, R6 =   0
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   2, R3 =   3, R4 =   6, R5 =   0, R6 =   0
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   2, R3 =   3, R4 =   6, R5 =   0, R6 =   0
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   2, R3 =   3, R4 =   6, R5 =   0, R6 =   0
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   2, R3 =   3, R4 =   6, R5 =   0, R6 =   0
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   2, R3 =   4, R4 =   6, R5 =   0, R6 =   0
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   2, R3 =   4, R4 =   6, R5 =   0, R6 =   0
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   2, R3 =   3, R4 =   6, R5 =   0, R6 =   0
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   1, R3 =   3, R4 =   6, R5 =   0, R6 =   0
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   1, R3 =   3, R4 =   6, R5 =   0, R6 =   0
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   1, R3 =   3, R4 =   6, R5 =   0, R6 =   0
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   1, R3 =   3, R4 =   6, R5 =   0, R6 =   0
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   1, R3 =   4, R4 =   6, R5 =   0, R6 =   0
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   1, R3 =   4, R4 =   6, R5 =   0, R6 =   0
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   1, R3 =   3, R4 =   6, R5 =   0, R6 =   0
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   0, R3 =   3, R4 =   6, R5 =   0, R6 =   0
+PC:   48 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   0, R3 =   3, R4 =   6, R5 =   0, R6 =   0
+PC:   52 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   0, R3 =   3, R4 =   6, R5 =   2, R6 =   0
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  50, R2 =   0, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   0, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   0, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   0, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   0, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   4, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   4, R3 =   4, R4 =   6, R5 =   2, R6 =   4
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   4, R3 =   4, R4 =   6, R5 =   2, R6 =   4
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   4, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   3, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   3, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   3, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   3, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   3, R3 =   4, R4 =   6, R5 =   2, R6 =   4
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   3, R3 =   4, R4 =   6, R5 =   2, R6 =   4
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   3, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   2, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   2, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   2, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   2, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   2, R3 =   4, R4 =   6, R5 =   2, R6 =   4
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   2, R3 =   4, R4 =   6, R5 =   2, R6 =   4
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   2, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   1, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   1, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   1, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   1, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   1, R3 =   4, R4 =   6, R5 =   2, R6 =   4
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   1, R3 =   4, R4 =   6, R5 =   2, R6 =   4
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   1, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   0, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   0, R3 =   3, R4 =   6, R5 =   2, R6 =   4
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   0, R3 =   3, R4 =   6, R5 =   4, R6 =   4
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  49, R2 =   0, R3 =   3, R4 =   6, R5 =   4, R6 =   6
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   0, R3 =   3, R4 =   6, R5 =   4, R6 =   6
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   0, R3 =   3, R4 =   6, R5 =   4, R6 =   6
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   4, R3 =   3, R4 =   6, R5 =   4, R6 =   6
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   4, R3 =   4, R4 =   6, R5 =   4, R6 =   6
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   4, R3 =   4, R4 =   6, R5 =   4, R6 =   6
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   4, R3 =   3, R4 =   6, R5 =   4, R6 =   6
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   3, R3 =   3, R4 =   6, R5 =   4, R6 =   6
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   3, R3 =   3, R4 =   6, R5 =   4, R6 =   6
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   3, R3 =   4, R4 =   6, R5 =   4, R6 =   6
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   3, R3 =   4, R4 =   6, R5 =   4, R6 =   6
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   3, R3 =   3, R4 =   6, R5 =   4, R6 =   6
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   2, R3 =   3, R4 =   6, R5 =   4, R6 =   6
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   2, R3 =   3, R4 =   6, R5 =   4, R6 =   6
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   2, R3 =   4, R4 =   6, R5 =   4, R6 =   6
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   2, R3 =   4, R4 =   6, R5 =   4, R6 =   6
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   2, R3 =   3, R4 =   6, R5 =   4, R6 =   6
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   1, R3 =   3, R4 =   6, R5 =   4, R6 =   6
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   1, R3 =   3, R4 =   6, R5 =   4, R6 =   6
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   1, R3 =   3, R4 =   6, R5 =   4, R6 =   6
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   1, R3 =   3, R4 =   6, R5 =   4, R6 =   6
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   1, R3 =   4, R4 =   6, R5 =   4, R6 =   6
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   1, R3 =   4, R4 =   6, R5 =   4, R6 =   6
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   1, R3 =   3, R4 =   6, R5 =   4, R6 =   6
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   0, R3 =   3, R4 =   6, R5 =   4, R6 =   6
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   0, R3 =   3, R4 =   6, R5 =   4, R6 =   6
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   0, R3 =   3, R4 =   6, R5 =   6, R6 =   6
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  48, R2 =   0, R3 =   3, R4 =   6, R5 =   6, R6 =   8
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   0, R3 =   3, R4 =   6, R5 =   6, R6 =   8
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   0, R3 =   3, R4 =   6, R5 =   6, R6 =   8
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   4, R3 =   3, R4 =   6, R5 =   6, R6 =   8
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   4, R3 =   4, R4 =   6, R5 =   6, R6 =   8
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   4, R3 =   4, R4 =   6, R5 =   6, R6 =   8
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   4, R3 =   3, R4 =   6, R5 =   6, R6 =   8
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   3, R3 =   3, R4 =   6, R5 =   6, R6 =   8
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   3, R3 =   3, R4 =   6, R5 =   6, R6 =   8
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   3, R3 =   4, R4 =   6, R5 =   6, R6 =   8
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   3, R3 =   4, R4 =   6, R5 =   6, R6 =   8
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   3, R3 =   3, R4 =   6, R5 =   6, R6 =   8
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   2, R3 =   3, R4 =   6, R5 =   6, R6 =   8
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   2, R3 =   3, R4 =   6, R5 =   6, R6 =   8
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   2, R3 =   4, R4 =   6, R5 =   6, R6 =   8
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   2, R3 =   4, R4 =   6, R5 =   6, R6 =   8
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   2, R3 =   3, R4 =   6, R5 =   6, R6 =   8
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   1, R3 =   3, R4 =   6, R5 =   6, R6 =   8
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   1, R3 =   3, R4 =   6, R5 =   6, R6 =   8
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   1, R3 =   3, R4 =   6, R5 =   6, R6 =   8
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   1, R3 =   3, R4 =   6, R5 =   6, R6 =   8
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   1, R3 =   4, R4 =   6, R5 =   6, R6 =   8
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   1, R3 =   4, R4 =   6, R5 =   6, R6 =   8
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   1, R3 =   3, R4 =   6, R5 =   6, R6 =   8
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   0, R3 =   3, R4 =   6, R5 =   6, R6 =   8
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   0, R3 =   3, R4 =   6, R5 =   6, R6 =   8
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   0, R3 =   3, R4 =   6, R5 =   8, R6 =   8
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  47, R2 =   0, R3 =   3, R4 =   6, R5 =   8, R6 =  10
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   0, R3 =   3, R4 =   6, R5 =   8, R6 =  10
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   0, R3 =   3, R4 =   6, R5 =   8, R6 =  10
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   4, R3 =   3, R4 =   6, R5 =   8, R6 =  10
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   4, R3 =   4, R4 =   6, R5 =   8, R6 =  10
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   4, R3 =   4, R4 =   6, R5 =   8, R6 =  10
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   4, R3 =   3, R4 =   6, R5 =   8, R6 =  10
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   3, R3 =   3, R4 =   6, R5 =   8, R6 =  10
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   3, R3 =   3, R4 =   6, R5 =   8, R6 =  10
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   3, R3 =   4, R4 =   6, R5 =   8, R6 =  10
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   3, R3 =   4, R4 =   6, R5 =   8, R6 =  10
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   3, R3 =   3, R4 =   6, R5 =   8, R6 =  10
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   2, R3 =   3, R4 =   6, R5 =   8, R6 =  10
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   2, R3 =   3, R4 =   6, R5 =   8, R6 =  10
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   2, R3 =   4, R4 =   6, R5 =   8, R6 =  10
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   2, R3 =   4, R4 =   6, R5 =   8, R6 =  10
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   2, R3 =   3, R4 =   6, R5 =   8, R6 =  10
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   1, R3 =   3, R4 =   6, R5 =   8, R6 =  10
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   1, R3 =   3, R4 =   6, R5 =   8, R6 =  10
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   1, R3 =   4, R4 =   6, R5 =   8, R6 =  10
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   1, R3 =   4, R4 =   6, R5 =   8, R6 =  10
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   1, R3 =   3, R4 =   6, R5 =   8, R6 =  10
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   0, R3 =   3, R4 =   6, R5 =   8, R6 =  10
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   0, R3 =   3, R4 =   6, R5 =   8, R6 =  10
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   0, R3 =   3, R4 =   6, R5 =  10, R6 =  10
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  46, R2 =   0, R3 =   3, R4 =   6, R5 =  10, R6 =  12
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   0, R3 =   3, R4 =   6, R5 =  10, R6 =  12
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   0, R3 =   3, R4 =   6, R5 =  10, R6 =  12
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   4, R3 =   3, R4 =   6, R5 =  10, R6 =  12
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   4, R3 =   4, R4 =   6, R5 =  10, R6 =  12
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   4, R3 =   4, R4 =   6, R5 =  10, R6 =  12
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   4, R3 =   3, R4 =   6, R5 =  10, R6 =  12
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   3, R3 =   3, R4 =   6, R5 =  10, R6 =  12
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   3, R3 =   3, R4 =   6, R5 =  10, R6 =  12
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   3, R3 =   4, R4 =   6, R5 =  10, R6 =  12
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   3, R3 =   4, R4 =   6, R5 =  10, R6 =  12
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   3, R3 =   3, R4 =   6, R5 =  10, R6 =  12
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   2, R3 =   3, R4 =   6, R5 =  10, R6 =  12
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   2, R3 =   3, R4 =   6, R5 =  10, R6 =  12
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   2, R3 =   4, R4 =   6, R5 =  10, R6 =  12
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   2, R3 =   4, R4 =   6, R5 =  10, R6 =  12
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   2, R3 =   3, R4 =   6, R5 =  10, R6 =  12
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   1, R3 =   3, R4 =   6, R5 =  10, R6 =  12
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   1, R3 =   3, R4 =   6, R5 =  10, R6 =  12
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   1, R3 =   4, R4 =   6, R5 =  10, R6 =  12
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   1, R3 =   4, R4 =   6, R5 =  10, R6 =  12
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   1, R3 =   3, R4 =   6, R5 =  10, R6 =  12
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   0, R3 =   3, R4 =   6, R5 =  10, R6 =  12
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   0, R3 =   3, R4 =   6, R5 =  10, R6 =  12
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   0, R3 =   3, R4 =   6, R5 =  12, R6 =  12
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  45, R2 =   0, R3 =   3, R4 =   6, R5 =  12, R6 =  14
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   0, R3 =   3, R4 =   6, R5 =  12, R6 =  14
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   0, R3 =   3, R4 =   6, R5 =  12, R6 =  14
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   4, R3 =   3, R4 =   6, R5 =  12, R6 =  14
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   4, R3 =   4, R4 =   6, R5 =  12, R6 =  14
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   4, R3 =   4, R4 =   6, R5 =  12, R6 =  14
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   4, R3 =   3, R4 =   6, R5 =  12, R6 =  14
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   3, R3 =   3, R4 =   6, R5 =  12, R6 =  14
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   3, R3 =   3, R4 =   6, R5 =  12, R6 =  14
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   3, R3 =   4, R4 =   6, R5 =  12, R6 =  14
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   3, R3 =   4, R4 =   6, R5 =  12, R6 =  14
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   3, R3 =   3, R4 =   6, R5 =  12, R6 =  14
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   2, R3 =   3, R4 =   6, R5 =  12, R6 =  14
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   2, R3 =   3, R4 =   6, R5 =  12, R6 =  14
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   2, R3 =   4, R4 =   6, R5 =  12, R6 =  14
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   2, R3 =   4, R4 =   6, R5 =  12, R6 =  14
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   2, R3 =   3, R4 =   6, R5 =  12, R6 =  14
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   1, R3 =   3, R4 =   6, R5 =  12, R6 =  14
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   1, R3 =   3, R4 =   6, R5 =  12, R6 =  14
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   1, R3 =   4, R4 =   6, R5 =  12, R6 =  14
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   1, R3 =   4, R4 =   6, R5 =  12, R6 =  14
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   1, R3 =   3, R4 =   6, R5 =  12, R6 =  14
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   0, R3 =   3, R4 =   6, R5 =  12, R6 =  14
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   0, R3 =   3, R4 =   6, R5 =  12, R6 =  14
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   0, R3 =   3, R4 =   6, R5 =  14, R6 =  14
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  44, R2 =   0, R3 =   3, R4 =   6, R5 =  14, R6 =  16
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   0, R3 =   3, R4 =   6, R5 =  14, R6 =  16
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   0, R3 =   3, R4 =   6, R5 =  14, R6 =  16
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   4, R3 =   3, R4 =   6, R5 =  14, R6 =  16
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   4, R3 =   4, R4 =   6, R5 =  14, R6 =  16
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   4, R3 =   4, R4 =   6, R5 =  14, R6 =  16
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   4, R3 =   3, R4 =   6, R5 =  14, R6 =  16
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   3, R3 =   3, R4 =   6, R5 =  14, R6 =  16
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   3, R3 =   3, R4 =   6, R5 =  14, R6 =  16
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   3, R3 =   4, R4 =   6, R5 =  14, R6 =  16
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   3, R3 =   4, R4 =   6, R5 =  14, R6 =  16
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   3, R3 =   3, R4 =   6, R5 =  14, R6 =  16
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   2, R3 =   3, R4 =   6, R5 =  14, R6 =  16
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   2, R3 =   3, R4 =   6, R5 =  14, R6 =  16
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   2, R3 =   4, R4 =   6, R5 =  14, R6 =  16
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   2, R3 =   4, R4 =   6, R5 =  14, R6 =  16
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   2, R3 =   3, R4 =   6, R5 =  14, R6 =  16
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   1, R3 =   3, R4 =   6, R5 =  14, R6 =  16
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   1, R3 =   3, R4 =   6, R5 =  14, R6 =  16
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   1, R3 =   4, R4 =   6, R5 =  14, R6 =  16
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   1, R3 =   4, R4 =   6, R5 =  14, R6 =  16
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   1, R3 =   3, R4 =   6, R5 =  14, R6 =  16
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   0, R3 =   3, R4 =   6, R5 =  14, R6 =  16
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   0, R3 =   3, R4 =   6, R5 =  14, R6 =  16
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   0, R3 =   3, R4 =   6, R5 =  16, R6 =  16
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  43, R2 =   0, R3 =   3, R4 =   6, R5 =  16, R6 =  18
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   0, R3 =   3, R4 =   6, R5 =  16, R6 =  18
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   0, R3 =   3, R4 =   6, R5 =  16, R6 =  18
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   4, R3 =   3, R4 =   6, R5 =  16, R6 =  18
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   4, R3 =   4, R4 =   6, R5 =  16, R6 =  18
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   4, R3 =   4, R4 =   6, R5 =  16, R6 =  18
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   4, R3 =   3, R4 =   6, R5 =  16, R6 =  18
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   3, R3 =   3, R4 =   6, R5 =  16, R6 =  18
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   3, R3 =   3, R4 =   6, R5 =  16, R6 =  18
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   3, R3 =   4, R4 =   6, R5 =  16, R6 =  18
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   3, R3 =   4, R4 =   6, R5 =  16, R6 =  18
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   3, R3 =   3, R4 =   6, R5 =  16, R6 =  18
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   2, R3 =   3, R4 =   6, R5 =  16, R6 =  18
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   2, R3 =   3, R4 =   6, R5 =  16, R6 =  18
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   2, R3 =   4, R4 =   6, R5 =  16, R6 =  18
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   2, R3 =   4, R4 =   6, R5 =  16, R6 =  18
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   2, R3 =   3, R4 =   6, R5 =  16, R6 =  18
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   1, R3 =   3, R4 =   6, R5 =  16, R6 =  18
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   1, R3 =   3, R4 =   6, R5 =  16, R6 =  18
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   1, R3 =   4, R4 =   6, R5 =  16, R6 =  18
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   1, R3 =   4, R4 =   6, R5 =  16, R6 =  18
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   1, R3 =   3, R4 =   6, R5 =  16, R6 =  18
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   0, R3 =   3, R4 =   6, R5 =  16, R6 =  18
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   0, R3 =   3, R4 =   6, R5 =  16, R6 =  18
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   0, R3 =   3, R4 =   6, R5 =  18, R6 =  18
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  42, R2 =   0, R3 =   3, R4 =   6, R5 =  18, R6 =  20
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   0, R3 =   3, R4 =   6, R5 =  18, R6 =  20
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   0, R3 =   3, R4 =   6, R5 =  18, R6 =  20
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   4, R3 =   3, R4 =   6, R5 =  18, R6 =  20
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   4, R3 =   4, R4 =   6, R5 =  18, R6 =  20
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   4, R3 =   4, R4 =   6, R5 =  18, R6 =  20
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   4, R3 =   3, R4 =   6, R5 =  18, R6 =  20
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   3, R3 =   3, R4 =   6, R5 =  18, R6 =  20
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   3, R3 =   3, R4 =   6, R5 =  18, R6 =  20
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   3, R3 =   4, R4 =   6, R5 =  18, R6 =  20
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   3, R3 =   4, R4 =   6, R5 =  18, R6 =  20
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   3, R3 =   3, R4 =   6, R5 =  18, R6 =  20
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   2, R3 =   3, R4 =   6, R5 =  18, R6 =  20
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   2, R3 =   3, R4 =   6, R5 =  18, R6 =  20
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   2, R3 =   4, R4 =   6, R5 =  18, R6 =  20
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   2, R3 =   4, R4 =   6, R5 =  18, R6 =  20
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   2, R3 =   3, R4 =   6, R5 =  18, R6 =  20
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   1, R3 =   3, R4 =   6, R5 =  18, R6 =  20
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   1, R3 =   3, R4 =   6, R5 =  18, R6 =  20
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   1, R3 =   4, R4 =   6, R5 =  18, R6 =  20
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   1, R3 =   4, R4 =   6, R5 =  18, R6 =  20
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   1, R3 =   3, R4 =   6, R5 =  18, R6 =  20
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   0, R3 =   3, R4 =   6, R5 =  18, R6 =  20
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   0, R3 =   3, R4 =   6, R5 =  18, R6 =  20
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   0, R3 =   3, R4 =   6, R5 =  20, R6 =  20
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  41, R2 =   0, R3 =   3, R4 =   6, R5 =  20, R6 =  22
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   0, R3 =   3, R4 =   6, R5 =  20, R6 =  22
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   0, R3 =   3, R4 =   6, R5 =  20, R6 =  22
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   4, R3 =   3, R4 =   6, R5 =  20, R6 =  22
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   4, R3 =   4, R4 =   6, R5 =  20, R6 =  22
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   4, R3 =   4, R4 =   6, R5 =  20, R6 =  22
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   4, R3 =   3, R4 =   6, R5 =  20, R6 =  22
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   3, R3 =   3, R4 =   6, R5 =  20, R6 =  22
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   3, R3 =   3, R4 =   6, R5 =  20, R6 =  22
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   3, R3 =   4, R4 =   6, R5 =  20, R6 =  22
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   3, R3 =   4, R4 =   6, R5 =  20, R6 =  22
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   3, R3 =   3, R4 =   6, R5 =  20, R6 =  22
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   2, R3 =   3, R4 =   6, R5 =  20, R6 =  22
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   2, R3 =   3, R4 =   6, R5 =  20, R6 =  22
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   2, R3 =   4, R4 =   6, R5 =  20, R6 =  22
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   2, R3 =   4, R4 =   6, R5 =  20, R6 =  22
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   2, R3 =   3, R4 =   6, R5 =  20, R6 =  22
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   1, R3 =   3, R4 =   6, R5 =  20, R6 =  22
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   1, R3 =   3, R4 =   6, R5 =  20, R6 =  22
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   1, R3 =   4, R4 =   6, R5 =  20, R6 =  22
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   1, R3 =   4, R4 =   6, R5 =  20, R6 =  22
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   1, R3 =   3, R4 =   6, R5 =  20, R6 =  22
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   0, R3 =   3, R4 =   6, R5 =  20, R6 =  22
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   0, R3 =   3, R4 =   6, R5 =  20, R6 =  22
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   0, R3 =   3, R4 =   6, R5 =  22, R6 =  22
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  40, R2 =   0, R3 =   3, R4 =   6, R5 =  22, R6 =  24
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   0, R3 =   3, R4 =   6, R5 =  22, R6 =  24
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   0, R3 =   3, R4 =   6, R5 =  22, R6 =  24
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   4, R3 =   3, R4 =   6, R5 =  22, R6 =  24
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   4, R3 =   4, R4 =   6, R5 =  22, R6 =  24
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   4, R3 =   4, R4 =   6, R5 =  22, R6 =  24
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   4, R3 =   3, R4 =   6, R5 =  22, R6 =  24
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   3, R3 =   3, R4 =   6, R5 =  22, R6 =  24
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   3, R3 =   3, R4 =   6, R5 =  22, R6 =  24
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   3, R3 =   4, R4 =   6, R5 =  22, R6 =  24
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   3, R3 =   4, R4 =   6, R5 =  22, R6 =  24
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   3, R3 =   3, R4 =   6, R5 =  22, R6 =  24
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   2, R3 =   3, R4 =   6, R5 =  22, R6 =  24
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   2, R3 =   3, R4 =   6, R5 =  22, R6 =  24
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   2, R3 =   4, R4 =   6, R5 =  22, R6 =  24
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   2, R3 =   4, R4 =   6, R5 =  22, R6 =  24
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   2, R3 =   3, R4 =   6, R5 =  22, R6 =  24
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   1, R3 =   3, R4 =   6, R5 =  22, R6 =  24
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   1, R3 =   3, R4 =   6, R5 =  22, R6 =  24
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   1, R3 =   4, R4 =   6, R5 =  22, R6 =  24
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   1, R3 =   4, R4 =   6, R5 =  22, R6 =  24
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   1, R3 =   3, R4 =   6, R5 =  22, R6 =  24
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   0, R3 =   3, R4 =   6, R5 =  22, R6 =  24
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   0, R3 =   3, R4 =   6, R5 =  22, R6 =  24
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   0, R3 =   3, R4 =   6, R5 =  24, R6 =  24
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  39, R2 =   0, R3 =   3, R4 =   6, R5 =  24, R6 =  26
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   0, R3 =   3, R4 =   6, R5 =  24, R6 =  26
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   0, R3 =   3, R4 =   6, R5 =  24, R6 =  26
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   4, R3 =   3, R4 =   6, R5 =  24, R6 =  26
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   4, R3 =   4, R4 =   6, R5 =  24, R6 =  26
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   4, R3 =   4, R4 =   6, R5 =  24, R6 =  26
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   4, R3 =   3, R4 =   6, R5 =  24, R6 =  26
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   3, R3 =   3, R4 =   6, R5 =  24, R6 =  26
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   3, R3 =   3, R4 =   6, R5 =  24, R6 =  26
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   3, R3 =   4, R4 =   6, R5 =  24, R6 =  26
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   3, R3 =   4, R4 =   6, R5 =  24, R6 =  26
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   3, R3 =   3, R4 =   6, R5 =  24, R6 =  26
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   2, R3 =   3, R4 =   6, R5 =  24, R6 =  26
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   2, R3 =   3, R4 =   6, R5 =  24, R6 =  26
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   2, R3 =   4, R4 =   6, R5 =  24, R6 =  26
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   2, R3 =   4, R4 =   6, R5 =  24, R6 =  26
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   2, R3 =   3, R4 =   6, R5 =  24, R6 =  26
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   1, R3 =   3, R4 =   6, R5 =  24, R6 =  26
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   1, R3 =   3, R4 =   6, R5 =  24, R6 =  26
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   1, R3 =   4, R4 =   6, R5 =  24, R6 =  26
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   1, R3 =   4, R4 =   6, R5 =  24, R6 =  26
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   1, R3 =   3, R4 =   6, R5 =  24, R6 =  26
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   0, R3 =   3, R4 =   6, R5 =  24, R6 =  26
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   0, R3 =   3, R4 =   6, R5 =  24, R6 =  26
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   0, R3 =   3, R4 =   6, R5 =  26, R6 =  26
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  38, R2 =   0, R3 =   3, R4 =   6, R5 =  26, R6 =  28
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   0, R3 =   3, R4 =   6, R5 =  26, R6 =  28
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   0, R3 =   3, R4 =   6, R5 =  26, R6 =  28
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   4, R3 =   3, R4 =   6, R5 =  26, R6 =  28
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   4, R3 =   4, R4 =   6, R5 =  26, R6 =  28
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   4, R3 =   4, R4 =   6, R5 =  26, R6 =  28
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   4, R3 =   3, R4 =   6, R5 =  26, R6 =  28
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   3, R3 =   3, R4 =   6, R5 =  26, R6 =  28
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   3, R3 =   3, R4 =   6, R5 =  26, R6 =  28
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   3, R3 =   4, R4 =   6, R5 =  26, R6 =  28
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   3, R3 =   4, R4 =   6, R5 =  26, R6 =  28
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   3, R3 =   3, R4 =   6, R5 =  26, R6 =  28
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   2, R3 =   3, R4 =   6, R5 =  26, R6 =  28
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   2, R3 =   3, R4 =   6, R5 =  26, R6 =  28
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   2, R3 =   4, R4 =   6, R5 =  26, R6 =  28
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   2, R3 =   4, R4 =   6, R5 =  26, R6 =  28
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   2, R3 =   3, R4 =   6, R5 =  26, R6 =  28
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   1, R3 =   3, R4 =   6, R5 =  26, R6 =  28
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   1, R3 =   3, R4 =   6, R5 =  26, R6 =  28
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   1, R3 =   4, R4 =   6, R5 =  26, R6 =  28
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   1, R3 =   4, R4 =   6, R5 =  26, R6 =  28
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   1, R3 =   3, R4 =   6, R5 =  26, R6 =  28
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   0, R3 =   3, R4 =   6, R5 =  26, R6 =  28
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   0, R3 =   3, R4 =   6, R5 =  26, R6 =  28
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   0, R3 =   3, R4 =   6, R5 =  28, R6 =  28
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  37, R2 =   0, R3 =   3, R4 =   6, R5 =  28, R6 =  30
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   0, R3 =   3, R4 =   6, R5 =  28, R6 =  30
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   0, R3 =   3, R4 =   6, R5 =  28, R6 =  30
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   4, R3 =   3, R4 =   6, R5 =  28, R6 =  30
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   4, R3 =   4, R4 =   6, R5 =  28, R6 =  30
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   4, R3 =   4, R4 =   6, R5 =  28, R6 =  30
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   4, R3 =   3, R4 =   6, R5 =  28, R6 =  30
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   3, R3 =   3, R4 =   6, R5 =  28, R6 =  30
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   3, R3 =   3, R4 =   6, R5 =  28, R6 =  30
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   3, R3 =   4, R4 =   6, R5 =  28, R6 =  30
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   3, R3 =   4, R4 =   6, R5 =  28, R6 =  30
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   3, R3 =   3, R4 =   6, R5 =  28, R6 =  30
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   2, R3 =   3, R4 =   6, R5 =  28, R6 =  30
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   2, R3 =   3, R4 =   6, R5 =  28, R6 =  30
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   2, R3 =   4, R4 =   6, R5 =  28, R6 =  30
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   2, R3 =   4, R4 =   6, R5 =  28, R6 =  30
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   2, R3 =   3, R4 =   6, R5 =  28, R6 =  30
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   1, R3 =   3, R4 =   6, R5 =  28, R6 =  30
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   1, R3 =   3, R4 =   6, R5 =  28, R6 =  30
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   1, R3 =   4, R4 =   6, R5 =  28, R6 =  30
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   1, R3 =   4, R4 =   6, R5 =  28, R6 =  30
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   1, R3 =   3, R4 =   6, R5 =  28, R6 =  30
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   0, R3 =   3, R4 =   6, R5 =  28, R6 =  30
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   0, R3 =   3, R4 =   6, R5 =  28, R6 =  30
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   0, R3 =   3, R4 =   6, R5 =  30, R6 =  30
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  36, R2 =   0, R3 =   3, R4 =   6, R5 =  30, R6 =  32
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   0, R3 =   3, R4 =   6, R5 =  30, R6 =  32
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   0, R3 =   3, R4 =   6, R5 =  30, R6 =  32
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   4, R3 =   3, R4 =   6, R5 =  30, R6 =  32
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   4, R3 =   4, R4 =   6, R5 =  30, R6 =  32
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   4, R3 =   4, R4 =   6, R5 =  30, R6 =  32
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   4, R3 =   3, R4 =   6, R5 =  30, R6 =  32
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   3, R3 =   3, R4 =   6, R5 =  30, R6 =  32
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   3, R3 =   3, R4 =   6, R5 =  30, R6 =  32
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   3, R3 =   4, R4 =   6, R5 =  30, R6 =  32
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   3, R3 =   4, R4 =   6, R5 =  30, R6 =  32
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   3, R3 =   3, R4 =   6, R5 =  30, R6 =  32
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   2, R3 =   3, R4 =   6, R5 =  30, R6 =  32
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   2, R3 =   3, R4 =   6, R5 =  30, R6 =  32
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   2, R3 =   4, R4 =   6, R5 =  30, R6 =  32
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   2, R3 =   4, R4 =   6, R5 =  30, R6 =  32
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   2, R3 =   3, R4 =   6, R5 =  30, R6 =  32
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   1, R3 =   3, R4 =   6, R5 =  30, R6 =  32
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   1, R3 =   3, R4 =   6, R5 =  30, R6 =  32
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   1, R3 =   4, R4 =   6, R5 =  30, R6 =  32
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   1, R3 =   4, R4 =   6, R5 =  30, R6 =  32
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   1, R3 =   3, R4 =   6, R5 =  30, R6 =  32
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   0, R3 =   3, R4 =   6, R5 =  30, R6 =  32
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   0, R3 =   3, R4 =   6, R5 =  30, R6 =  32
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   0, R3 =   3, R4 =   6, R5 =  32, R6 =  32
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  35, R2 =   0, R3 =   3, R4 =   6, R5 =  32, R6 =  34
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   0, R3 =   3, R4 =   6, R5 =  32, R6 =  34
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   0, R3 =   3, R4 =   6, R5 =  32, R6 =  34
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   4, R3 =   3, R4 =   6, R5 =  32, R6 =  34
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   4, R3 =   4, R4 =   6, R5 =  32, R6 =  34
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   4, R3 =   4, R4 =   6, R5 =  32, R6 =  34
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   4, R3 =   3, R4 =   6, R5 =  32, R6 =  34
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   3, R3 =   3, R4 =   6, R5 =  32, R6 =  34
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   3, R3 =   3, R4 =   6, R5 =  32, R6 =  34
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   3, R3 =   4, R4 =   6, R5 =  32, R6 =  34
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   3, R3 =   4, R4 =   6, R5 =  32, R6 =  34
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   3, R3 =   3, R4 =   6, R5 =  32, R6 =  34
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   2, R3 =   3, R4 =   6, R5 =  32, R6 =  34
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   2, R3 =   3, R4 =   6, R5 =  32, R6 =  34
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   2, R3 =   4, R4 =   6, R5 =  32, R6 =  34
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   2, R3 =   4, R4 =   6, R5 =  32, R6 =  34
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   2, R3 =   3, R4 =   6, R5 =  32, R6 =  34
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   1, R3 =   3, R4 =   6, R5 =  32, R6 =  34
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   1, R3 =   3, R4 =   6, R5 =  32, R6 =  34
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   1, R3 =   4, R4 =   6, R5 =  32, R6 =  34
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   1, R3 =   4, R4 =   6, R5 =  32, R6 =  34
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   1, R3 =   3, R4 =   6, R5 =  32, R6 =  34
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   0, R3 =   3, R4 =   6, R5 =  32, R6 =  34
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   0, R3 =   3, R4 =   6, R5 =  32, R6 =  34
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   0, R3 =   3, R4 =   6, R5 =  34, R6 =  34
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  34, R2 =   0, R3 =   3, R4 =   6, R5 =  34, R6 =  36
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   0, R3 =   3, R4 =   6, R5 =  34, R6 =  36
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   0, R3 =   3, R4 =   6, R5 =  34, R6 =  36
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   4, R3 =   3, R4 =   6, R5 =  34, R6 =  36
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   4, R3 =   4, R4 =   6, R5 =  34, R6 =  36
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   4, R3 =   4, R4 =   6, R5 =  34, R6 =  36
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   4, R3 =   3, R4 =   6, R5 =  34, R6 =  36
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   3, R3 =   3, R4 =   6, R5 =  34, R6 =  36
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   3, R3 =   3, R4 =   6, R5 =  34, R6 =  36
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   3, R3 =   4, R4 =   6, R5 =  34, R6 =  36
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   3, R3 =   4, R4 =   6, R5 =  34, R6 =  36
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   3, R3 =   3, R4 =   6, R5 =  34, R6 =  36
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   2, R3 =   3, R4 =   6, R5 =  34, R6 =  36
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   2, R3 =   3, R4 =   6, R5 =  34, R6 =  36
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   2, R3 =   4, R4 =   6, R5 =  34, R6 =  36
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   2, R3 =   4, R4 =   6, R5 =  34, R6 =  36
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   2, R3 =   3, R4 =   6, R5 =  34, R6 =  36
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   1, R3 =   3, R4 =   6, R5 =  34, R6 =  36
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   1, R3 =   3, R4 =   6, R5 =  34, R6 =  36
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   1, R3 =   4, R4 =   6, R5 =  34, R6 =  36
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   1, R3 =   4, R4 =   6, R5 =  34, R6 =  36
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   1, R3 =   3, R4 =   6, R5 =  34, R6 =  36
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   0, R3 =   3, R4 =   6, R5 =  34, R6 =  36
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   0, R3 =   3, R4 =   6, R5 =  34, R6 =  36
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   0, R3 =   3, R4 =   6, R5 =  36, R6 =  36
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  33, R2 =   0, R3 =   3, R4 =   6, R5 =  36, R6 =  38
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   0, R3 =   3, R4 =   6, R5 =  36, R6 =  38
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   0, R3 =   3, R4 =   6, R5 =  36, R6 =  38
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   4, R3 =   3, R4 =   6, R5 =  36, R6 =  38
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   4, R3 =   4, R4 =   6, R5 =  36, R6 =  38
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   4, R3 =   4, R4 =   6, R5 =  36, R6 =  38
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   4, R3 =   3, R4 =   6, R5 =  36, R6 =  38
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   3, R3 =   3, R4 =   6, R5 =  36, R6 =  38
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   3, R3 =   3, R4 =   6, R5 =  36, R6 =  38
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   3, R3 =   4, R4 =   6, R5 =  36, R6 =  38
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   3, R3 =   4, R4 =   6, R5 =  36, R6 =  38
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   3, R3 =   3, R4 =   6, R5 =  36, R6 =  38
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   2, R3 =   3, R4 =   6, R5 =  36, R6 =  38
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   2, R3 =   3, R4 =   6, R5 =  36, R6 =  38
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   2, R3 =   4, R4 =   6, R5 =  36, R6 =  38
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   2, R3 =   4, R4 =   6, R5 =  36, R6 =  38
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   2, R3 =   3, R4 =   6, R5 =  36, R6 =  38
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   1, R3 =   3, R4 =   6, R5 =  36, R6 =  38
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   1, R3 =   3, R4 =   6, R5 =  36, R6 =  38
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   1, R3 =   4, R4 =   6, R5 =  36, R6 =  38
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   1, R3 =   4, R4 =   6, R5 =  36, R6 =  38
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   1, R3 =   3, R4 =   6, R5 =  36, R6 =  38
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   0, R3 =   3, R4 =   6, R5 =  36, R6 =  38
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   0, R3 =   3, R4 =   6, R5 =  36, R6 =  38
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   0, R3 =   3, R4 =   6, R5 =  38, R6 =  38
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  32, R2 =   0, R3 =   3, R4 =   6, R5 =  38, R6 =  40
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   0, R3 =   3, R4 =   6, R5 =  38, R6 =  40
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   0, R3 =   3, R4 =   6, R5 =  38, R6 =  40
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   4, R3 =   3, R4 =   6, R5 =  38, R6 =  40
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   4, R3 =   4, R4 =   6, R5 =  38, R6 =  40
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   4, R3 =   4, R4 =   6, R5 =  38, R6 =  40
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   4, R3 =   3, R4 =   6, R5 =  38, R6 =  40
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   3, R3 =   3, R4 =   6, R5 =  38, R6 =  40
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   3, R3 =   3, R4 =   6, R5 =  38, R6 =  40
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   3, R3 =   4, R4 =   6, R5 =  38, R6 =  40
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   3, R3 =   4, R4 =   6, R5 =  38, R6 =  40
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   3, R3 =   3, R4 =   6, R5 =  38, R6 =  40
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   2, R3 =   3, R4 =   6, R5 =  38, R6 =  40
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   2, R3 =   3, R4 =   6, R5 =  38, R6 =  40
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   2, R3 =   4, R4 =   6, R5 =  38, R6 =  40
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   2, R3 =   4, R4 =   6, R5 =  38, R6 =  40
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   2, R3 =   3, R4 =   6, R5 =  38, R6 =  40
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   1, R3 =   3, R4 =   6, R5 =  38, R6 =  40
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   1, R3 =   3, R4 =   6, R5 =  38, R6 =  40
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   1, R3 =   4, R4 =   6, R5 =  38, R6 =  40
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   1, R3 =   4, R4 =   6, R5 =  38, R6 =  40
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   1, R3 =   3, R4 =   6, R5 =  38, R6 =  40
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   0, R3 =   3, R4 =   6, R5 =  38, R6 =  40
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   0, R3 =   3, R4 =   6, R5 =  38, R6 =  40
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   0, R3 =   3, R4 =   6, R5 =  40, R6 =  40
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  31, R2 =   0, R3 =   3, R4 =   6, R5 =  40, R6 =  42
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   0, R3 =   3, R4 =   6, R5 =  40, R6 =  42
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   0, R3 =   3, R4 =   6, R5 =  40, R6 =  42
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   4, R3 =   3, R4 =   6, R5 =  40, R6 =  42
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   4, R3 =   4, R4 =   6, R5 =  40, R6 =  42
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   4, R3 =   4, R4 =   6, R5 =  40, R6 =  42
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   4, R3 =   3, R4 =   6, R5 =  40, R6 =  42
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   3, R3 =   3, R4 =   6, R5 =  40, R6 =  42
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   3, R3 =   3, R4 =   6, R5 =  40, R6 =  42
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   3, R3 =   4, R4 =   6, R5 =  40, R6 =  42
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   3, R3 =   4, R4 =   6, R5 =  40, R6 =  42
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   3, R3 =   3, R4 =   6, R5 =  40, R6 =  42
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   2, R3 =   3, R4 =   6, R5 =  40, R6 =  42
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   2, R3 =   3, R4 =   6, R5 =  40, R6 =  42
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   2, R3 =   4, R4 =   6, R5 =  40, R6 =  42
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   2, R3 =   4, R4 =   6, R5 =  40, R6 =  42
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   2, R3 =   3, R4 =   6, R5 =  40, R6 =  42
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   1, R3 =   3, R4 =   6, R5 =  40, R6 =  42
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   1, R3 =   3, R4 =   6, R5 =  40, R6 =  42
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   1, R3 =   4, R4 =   6, R5 =  40, R6 =  42
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   1, R3 =   4, R4 =   6, R5 =  40, R6 =  42
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   1, R3 =   3, R4 =   6, R5 =  40, R6 =  42
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   0, R3 =   3, R4 =   6, R5 =  40, R6 =  42
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   0, R3 =   3, R4 =   6, R5 =  40, R6 =  42
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   0, R3 =   3, R4 =   6, R5 =  42, R6 =  42
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  30, R2 =   0, R3 =   3, R4 =   6, R5 =  42, R6 =  44
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   0, R3 =   3, R4 =   6, R5 =  42, R6 =  44
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   0, R3 =   3, R4 =   6, R5 =  42, R6 =  44
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   4, R3 =   3, R4 =   6, R5 =  42, R6 =  44
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   4, R3 =   4, R4 =   6, R5 =  42, R6 =  44
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   4, R3 =   4, R4 =   6, R5 =  42, R6 =  44
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   4, R3 =   3, R4 =   6, R5 =  42, R6 =  44
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   3, R3 =   3, R4 =   6, R5 =  42, R6 =  44
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   3, R3 =   3, R4 =   6, R5 =  42, R6 =  44
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   3, R3 =   4, R4 =   6, R5 =  42, R6 =  44
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   3, R3 =   4, R4 =   6, R5 =  42, R6 =  44
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   3, R3 =   3, R4 =   6, R5 =  42, R6 =  44
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   2, R3 =   3, R4 =   6, R5 =  42, R6 =  44
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   2, R3 =   3, R4 =   6, R5 =  42, R6 =  44
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   2, R3 =   4, R4 =   6, R5 =  42, R6 =  44
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   2, R3 =   4, R4 =   6, R5 =  42, R6 =  44
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   2, R3 =   3, R4 =   6, R5 =  42, R6 =  44
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   1, R3 =   3, R4 =   6, R5 =  42, R6 =  44
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   1, R3 =   3, R4 =   6, R5 =  42, R6 =  44
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   1, R3 =   4, R4 =   6, R5 =  42, R6 =  44
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   1, R3 =   4, R4 =   6, R5 =  42, R6 =  44
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   1, R3 =   3, R4 =   6, R5 =  42, R6 =  44
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   0, R3 =   3, R4 =   6, R5 =  42, R6 =  44
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   0, R3 =   3, R4 =   6, R5 =  42, R6 =  44
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   0, R3 =   3, R4 =   6, R5 =  44, R6 =  44
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  29, R2 =   0, R3 =   3, R4 =   6, R5 =  44, R6 =  46
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   0, R3 =   3, R4 =   6, R5 =  44, R6 =  46
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   0, R3 =   3, R4 =   6, R5 =  44, R6 =  46
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   4, R3 =   3, R4 =   6, R5 =  44, R6 =  46
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   4, R3 =   4, R4 =   6, R5 =  44, R6 =  46
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   4, R3 =   4, R4 =   6, R5 =  44, R6 =  46
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   4, R3 =   3, R4 =   6, R5 =  44, R6 =  46
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   3, R3 =   3, R4 =   6, R5 =  44, R6 =  46
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   3, R3 =   3, R4 =   6, R5 =  44, R6 =  46
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   3, R3 =   4, R4 =   6, R5 =  44, R6 =  46
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   3, R3 =   4, R4 =   6, R5 =  44, R6 =  46
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   3, R3 =   3, R4 =   6, R5 =  44, R6 =  46
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   2, R3 =   3, R4 =   6, R5 =  44, R6 =  46
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   2, R3 =   3, R4 =   6, R5 =  44, R6 =  46
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   2, R3 =   4, R4 =   6, R5 =  44, R6 =  46
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   2, R3 =   4, R4 =   6, R5 =  44, R6 =  46
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   2, R3 =   3, R4 =   6, R5 =  44, R6 =  46
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   1, R3 =   3, R4 =   6, R5 =  44, R6 =  46
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   1, R3 =   3, R4 =   6, R5 =  44, R6 =  46
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   1, R3 =   4, R4 =   6, R5 =  44, R6 =  46
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   1, R3 =   4, R4 =   6, R5 =  44, R6 =  46
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   1, R3 =   3, R4 =   6, R5 =  44, R6 =  46
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   0, R3 =   3, R4 =   6, R5 =  44, R6 =  46
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   0, R3 =   3, R4 =   6, R5 =  44, R6 =  46
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   0, R3 =   3, R4 =   6, R5 =  46, R6 =  46
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  28, R2 =   0, R3 =   3, R4 =   6, R5 =  46, R6 =  48
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   0, R3 =   3, R4 =   6, R5 =  46, R6 =  48
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   0, R3 =   3, R4 =   6, R5 =  46, R6 =  48
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   4, R3 =   3, R4 =   6, R5 =  46, R6 =  48
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   4, R3 =   4, R4 =   6, R5 =  46, R6 =  48
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   4, R3 =   4, R4 =   6, R5 =  46, R6 =  48
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   4, R3 =   3, R4 =   6, R5 =  46, R6 =  48
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   3, R3 =   3, R4 =   6, R5 =  46, R6 =  48
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   3, R3 =   3, R4 =   6, R5 =  46, R6 =  48
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   3, R3 =   4, R4 =   6, R5 =  46, R6 =  48
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   3, R3 =   4, R4 =   6, R5 =  46, R6 =  48
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   3, R3 =   3, R4 =   6, R5 =  46, R6 =  48
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   2, R3 =   3, R4 =   6, R5 =  46, R6 =  48
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   2, R3 =   3, R4 =   6, R5 =  46, R6 =  48
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   2, R3 =   4, R4 =   6, R5 =  46, R6 =  48
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   2, R3 =   4, R4 =   6, R5 =  46, R6 =  48
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   2, R3 =   3, R4 =   6, R5 =  46, R6 =  48
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   1, R3 =   3, R4 =   6, R5 =  46, R6 =  48
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   1, R3 =   3, R4 =   6, R5 =  46, R6 =  48
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   1, R3 =   4, R4 =   6, R5 =  46, R6 =  48
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   1, R3 =   4, R4 =   6, R5 =  46, R6 =  48
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   1, R3 =   3, R4 =   6, R5 =  46, R6 =  48
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   0, R3 =   3, R4 =   6, R5 =  46, R6 =  48
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   0, R3 =   3, R4 =   6, R5 =  46, R6 =  48
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   0, R3 =   3, R4 =   6, R5 =  48, R6 =  48
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  27, R2 =   0, R3 =   3, R4 =   6, R5 =  48, R6 =  50
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   0, R3 =   3, R4 =   6, R5 =  48, R6 =  50
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   0, R3 =   3, R4 =   6, R5 =  48, R6 =  50
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   4, R3 =   3, R4 =   6, R5 =  48, R6 =  50
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   4, R3 =   4, R4 =   6, R5 =  48, R6 =  50
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   4, R3 =   4, R4 =   6, R5 =  48, R6 =  50
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   4, R3 =   3, R4 =   6, R5 =  48, R6 =  50
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   3, R3 =   3, R4 =   6, R5 =  48, R6 =  50
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   3, R3 =   3, R4 =   6, R5 =  48, R6 =  50
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   3, R3 =   4, R4 =   6, R5 =  48, R6 =  50
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   3, R3 =   4, R4 =   6, R5 =  48, R6 =  50
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   3, R3 =   3, R4 =   6, R5 =  48, R6 =  50
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   2, R3 =   3, R4 =   6, R5 =  48, R6 =  50
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   2, R3 =   3, R4 =   6, R5 =  48, R6 =  50
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   2, R3 =   4, R4 =   6, R5 =  48, R6 =  50
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   2, R3 =   4, R4 =   6, R5 =  48, R6 =  50
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   2, R3 =   3, R4 =   6, R5 =  48, R6 =  50
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   1, R3 =   3, R4 =   6, R5 =  48, R6 =  50
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   1, R3 =   3, R4 =   6, R5 =  48, R6 =  50
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   1, R3 =   4, R4 =   6, R5 =  48, R6 =  50
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   1, R3 =   4, R4 =   6, R5 =  48, R6 =  50
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   1, R3 =   3, R4 =   6, R5 =  48, R6 =  50
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   0, R3 =   3, R4 =   6, R5 =  48, R6 =  50
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   0, R3 =   3, R4 =   6, R5 =  48, R6 =  50
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   0, R3 =   3, R4 =   6, R5 =  50, R6 =  50
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  26, R2 =   0, R3 =   3, R4 =   6, R5 =  50, R6 =  52
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   0, R3 =   3, R4 =   6, R5 =  50, R6 =  52
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   0, R3 =   3, R4 =   6, R5 =  50, R6 =  52
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   4, R3 =   3, R4 =   6, R5 =  50, R6 =  52
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   4, R3 =   4, R4 =   6, R5 =  50, R6 =  52
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   4, R3 =   4, R4 =   6, R5 =  50, R6 =  52
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   4, R3 =   3, R4 =   6, R5 =  50, R6 =  52
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   3, R3 =   3, R4 =   6, R5 =  50, R6 =  52
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   3, R3 =   3, R4 =   6, R5 =  50, R6 =  52
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   3, R3 =   4, R4 =   6, R5 =  50, R6 =  52
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   3, R3 =   4, R4 =   6, R5 =  50, R6 =  52
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   3, R3 =   3, R4 =   6, R5 =  50, R6 =  52
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   2, R3 =   3, R4 =   6, R5 =  50, R6 =  52
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   2, R3 =   3, R4 =   6, R5 =  50, R6 =  52
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   2, R3 =   4, R4 =   6, R5 =  50, R6 =  52
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   2, R3 =   4, R4 =   6, R5 =  50, R6 =  52
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   2, R3 =   3, R4 =   6, R5 =  50, R6 =  52
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   1, R3 =   3, R4 =   6, R5 =  50, R6 =  52
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   1, R3 =   3, R4 =   6, R5 =  50, R6 =  52
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   1, R3 =   4, R4 =   6, R5 =  50, R6 =  52
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   1, R3 =   4, R4 =   6, R5 =  50, R6 =  52
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   1, R3 =   3, R4 =   6, R5 =  50, R6 =  52
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   0, R3 =   3, R4 =   6, R5 =  50, R6 =  52
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   0, R3 =   3, R4 =   6, R5 =  50, R6 =  52
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   0, R3 =   3, R4 =   6, R5 =  52, R6 =  52
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  25, R2 =   0, R3 =   3, R4 =   6, R5 =  52, R6 =  54
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   0, R3 =   3, R4 =   6, R5 =  52, R6 =  54
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   0, R3 =   3, R4 =   6, R5 =  52, R6 =  54
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   4, R3 =   3, R4 =   6, R5 =  52, R6 =  54
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   4, R3 =   4, R4 =   6, R5 =  52, R6 =  54
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   4, R3 =   4, R4 =   6, R5 =  52, R6 =  54
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   4, R3 =   3, R4 =   6, R5 =  52, R6 =  54
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   3, R3 =   3, R4 =   6, R5 =  52, R6 =  54
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   3, R3 =   3, R4 =   6, R5 =  52, R6 =  54
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   3, R3 =   4, R4 =   6, R5 =  52, R6 =  54
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   3, R3 =   4, R4 =   6, R5 =  52, R6 =  54
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   3, R3 =   3, R4 =   6, R5 =  52, R6 =  54
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   2, R3 =   3, R4 =   6, R5 =  52, R6 =  54
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   2, R3 =   3, R4 =   6, R5 =  52, R6 =  54
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   2, R3 =   4, R4 =   6, R5 =  52, R6 =  54
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   2, R3 =   4, R4 =   6, R5 =  52, R6 =  54
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   2, R3 =   3, R4 =   6, R5 =  52, R6 =  54
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   1, R3 =   3, R4 =   6, R5 =  52, R6 =  54
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   1, R3 =   3, R4 =   6, R5 =  52, R6 =  54
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   1, R3 =   4, R4 =   6, R5 =  52, R6 =  54
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   1, R3 =   4, R4 =   6, R5 =  52, R6 =  54
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   1, R3 =   3, R4 =   6, R5 =  52, R6 =  54
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   0, R3 =   3, R4 =   6, R5 =  52, R6 =  54
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   0, R3 =   3, R4 =   6, R5 =  52, R6 =  54
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   0, R3 =   3, R4 =   6, R5 =  54, R6 =  54
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  24, R2 =   0, R3 =   3, R4 =   6, R5 =  54, R6 =  56
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   0, R3 =   3, R4 =   6, R5 =  54, R6 =  56
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   0, R3 =   3, R4 =   6, R5 =  54, R6 =  56
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   4, R3 =   3, R4 =   6, R5 =  54, R6 =  56
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   4, R3 =   4, R4 =   6, R5 =  54, R6 =  56
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   4, R3 =   4, R4 =   6, R5 =  54, R6 =  56
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   4, R3 =   3, R4 =   6, R5 =  54, R6 =  56
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   3, R3 =   3, R4 =   6, R5 =  54, R6 =  56
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   3, R3 =   3, R4 =   6, R5 =  54, R6 =  56
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   3, R3 =   4, R4 =   6, R5 =  54, R6 =  56
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   3, R3 =   4, R4 =   6, R5 =  54, R6 =  56
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   3, R3 =   3, R4 =   6, R5 =  54, R6 =  56
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   2, R3 =   3, R4 =   6, R5 =  54, R6 =  56
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   2, R3 =   3, R4 =   6, R5 =  54, R6 =  56
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   2, R3 =   4, R4 =   6, R5 =  54, R6 =  56
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   2, R3 =   4, R4 =   6, R5 =  54, R6 =  56
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   2, R3 =   3, R4 =   6, R5 =  54, R6 =  56
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   1, R3 =   3, R4 =   6, R5 =  54, R6 =  56
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   1, R3 =   3, R4 =   6, R5 =  54, R6 =  56
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   1, R3 =   4, R4 =   6, R5 =  54, R6 =  56
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   1, R3 =   4, R4 =   6, R5 =  54, R6 =  56
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   1, R3 =   3, R4 =   6, R5 =  54, R6 =  56
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   0, R3 =   3, R4 =   6, R5 =  54, R6 =  56
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   0, R3 =   3, R4 =   6, R5 =  54, R6 =  56
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   0, R3 =   3, R4 =   6, R5 =  56, R6 =  56
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  23, R2 =   0, R3 =   3, R4 =   6, R5 =  56, R6 =  58
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   0, R3 =   3, R4 =   6, R5 =  56, R6 =  58
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   0, R3 =   3, R4 =   6, R5 =  56, R6 =  58
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   4, R3 =   3, R4 =   6, R5 =  56, R6 =  58
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   4, R3 =   4, R4 =   6, R5 =  56, R6 =  58
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   4, R3 =   4, R4 =   6, R5 =  56, R6 =  58
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   4, R3 =   3, R4 =   6, R5 =  56, R6 =  58
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   3, R3 =   3, R4 =   6, R5 =  56, R6 =  58
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   3, R3 =   3, R4 =   6, R5 =  56, R6 =  58
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   3, R3 =   4, R4 =   6, R5 =  56, R6 =  58
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   3, R3 =   4, R4 =   6, R5 =  56, R6 =  58
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   3, R3 =   3, R4 =   6, R5 =  56, R6 =  58
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   2, R3 =   3, R4 =   6, R5 =  56, R6 =  58
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   2, R3 =   3, R4 =   6, R5 =  56, R6 =  58
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   2, R3 =   4, R4 =   6, R5 =  56, R6 =  58
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   2, R3 =   4, R4 =   6, R5 =  56, R6 =  58
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   2, R3 =   3, R4 =   6, R5 =  56, R6 =  58
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   1, R3 =   3, R4 =   6, R5 =  56, R6 =  58
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   1, R3 =   3, R4 =   6, R5 =  56, R6 =  58
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   1, R3 =   4, R4 =   6, R5 =  56, R6 =  58
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   1, R3 =   4, R4 =   6, R5 =  56, R6 =  58
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   1, R3 =   3, R4 =   6, R5 =  56, R6 =  58
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   0, R3 =   3, R4 =   6, R5 =  56, R6 =  58
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   0, R3 =   3, R4 =   6, R5 =  56, R6 =  58
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   0, R3 =   3, R4 =   6, R5 =  58, R6 =  58
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  22, R2 =   0, R3 =   3, R4 =   6, R5 =  58, R6 =  60
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   0, R3 =   3, R4 =   6, R5 =  58, R6 =  60
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   0, R3 =   3, R4 =   6, R5 =  58, R6 =  60
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   4, R3 =   3, R4 =   6, R5 =  58, R6 =  60
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   4, R3 =   4, R4 =   6, R5 =  58, R6 =  60
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   4, R3 =   4, R4 =   6, R5 =  58, R6 =  60
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   4, R3 =   3, R4 =   6, R5 =  58, R6 =  60
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   3, R3 =   3, R4 =   6, R5 =  58, R6 =  60
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   3, R3 =   3, R4 =   6, R5 =  58, R6 =  60
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   3, R3 =   4, R4 =   6, R5 =  58, R6 =  60
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   3, R3 =   4, R4 =   6, R5 =  58, R6 =  60
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   3, R3 =   3, R4 =   6, R5 =  58, R6 =  60
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   2, R3 =   3, R4 =   6, R5 =  58, R6 =  60
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   2, R3 =   3, R4 =   6, R5 =  58, R6 =  60
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   2, R3 =   4, R4 =   6, R5 =  58, R6 =  60
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   2, R3 =   4, R4 =   6, R5 =  58, R6 =  60
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   2, R3 =   3, R4 =   6, R5 =  58, R6 =  60
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   1, R3 =   3, R4 =   6, R5 =  58, R6 =  60
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   1, R3 =   3, R4 =   6, R5 =  58, R6 =  60
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   1, R3 =   4, R4 =   6, R5 =  58, R6 =  60
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   1, R3 =   4, R4 =   6, R5 =  58, R6 =  60
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   1, R3 =   3, R4 =   6, R5 =  58, R6 =  60
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   0, R3 =   3, R4 =   6, R5 =  58, R6 =  60
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   0, R3 =   3, R4 =   6, R5 =  58, R6 =  60
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   0, R3 =   3, R4 =   6, R5 =  60, R6 =  60
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  21, R2 =   0, R3 =   3, R4 =   6, R5 =  60, R6 =  62
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   0, R3 =   3, R4 =   6, R5 =  60, R6 =  62
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   0, R3 =   3, R4 =   6, R5 =  60, R6 =  62
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   4, R3 =   3, R4 =   6, R5 =  60, R6 =  62
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   4, R3 =   4, R4 =   6, R5 =  60, R6 =  62
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   4, R3 =   4, R4 =   6, R5 =  60, R6 =  62
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   4, R3 =   3, R4 =   6, R5 =  60, R6 =  62
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   3, R3 =   3, R4 =   6, R5 =  60, R6 =  62
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   3, R3 =   3, R4 =   6, R5 =  60, R6 =  62
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   3, R3 =   4, R4 =   6, R5 =  60, R6 =  62
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   3, R3 =   4, R4 =   6, R5 =  60, R6 =  62
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   3, R3 =   3, R4 =   6, R5 =  60, R6 =  62
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   2, R3 =   3, R4 =   6, R5 =  60, R6 =  62
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   2, R3 =   3, R4 =   6, R5 =  60, R6 =  62
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   2, R3 =   4, R4 =   6, R5 =  60, R6 =  62
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   2, R3 =   4, R4 =   6, R5 =  60, R6 =  62
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   2, R3 =   3, R4 =   6, R5 =  60, R6 =  62
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   1, R3 =   3, R4 =   6, R5 =  60, R6 =  62
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   1, R3 =   3, R4 =   6, R5 =  60, R6 =  62
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   1, R3 =   4, R4 =   6, R5 =  60, R6 =  62
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   1, R3 =   4, R4 =   6, R5 =  60, R6 =  62
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   1, R3 =   3, R4 =   6, R5 =  60, R6 =  62
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   0, R3 =   3, R4 =   6, R5 =  60, R6 =  62
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   0, R3 =   3, R4 =   6, R5 =  60, R6 =  62
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   0, R3 =   3, R4 =   6, R5 =  62, R6 =  62
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  20, R2 =   0, R3 =   3, R4 =   6, R5 =  62, R6 =  64
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   0, R3 =   3, R4 =   6, R5 =  62, R6 =  64
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   0, R3 =   3, R4 =   6, R5 =  62, R6 =  64
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   4, R3 =   3, R4 =   6, R5 =  62, R6 =  64
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   4, R3 =   4, R4 =   6, R5 =  62, R6 =  64
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   4, R3 =   4, R4 =   6, R5 =  62, R6 =  64
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   4, R3 =   3, R4 =   6, R5 =  62, R6 =  64
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   3, R3 =   3, R4 =   6, R5 =  62, R6 =  64
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   3, R3 =   3, R4 =   6, R5 =  62, R6 =  64
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   3, R3 =   4, R4 =   6, R5 =  62, R6 =  64
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   3, R3 =   4, R4 =   6, R5 =  62, R6 =  64
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   3, R3 =   3, R4 =   6, R5 =  62, R6 =  64
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   2, R3 =   3, R4 =   6, R5 =  62, R6 =  64
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   2, R3 =   3, R4 =   6, R5 =  62, R6 =  64
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   2, R3 =   4, R4 =   6, R5 =  62, R6 =  64
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   2, R3 =   4, R4 =   6, R5 =  62, R6 =  64
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   2, R3 =   3, R4 =   6, R5 =  62, R6 =  64
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   1, R3 =   3, R4 =   6, R5 =  62, R6 =  64
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   1, R3 =   3, R4 =   6, R5 =  62, R6 =  64
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   1, R3 =   4, R4 =   6, R5 =  62, R6 =  64
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   1, R3 =   4, R4 =   6, R5 =  62, R6 =  64
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   1, R3 =   3, R4 =   6, R5 =  62, R6 =  64
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   0, R3 =   3, R4 =   6, R5 =  62, R6 =  64
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   0, R3 =   3, R4 =   6, R5 =  62, R6 =  64
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   0, R3 =   3, R4 =   6, R5 =  64, R6 =  64
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  19, R2 =   0, R3 =   3, R4 =   6, R5 =  64, R6 =  66
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   0, R3 =   3, R4 =   6, R5 =  64, R6 =  66
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   0, R3 =   3, R4 =   6, R5 =  64, R6 =  66
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   4, R3 =   3, R4 =   6, R5 =  64, R6 =  66
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   4, R3 =   4, R4 =   6, R5 =  64, R6 =  66
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   4, R3 =   4, R4 =   6, R5 =  64, R6 =  66
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   4, R3 =   3, R4 =   6, R5 =  64, R6 =  66
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   3, R3 =   3, R4 =   6, R5 =  64, R6 =  66
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   3, R3 =   3, R4 =   6, R5 =  64, R6 =  66
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   3, R3 =   4, R4 =   6, R5 =  64, R6 =  66
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   3, R3 =   4, R4 =   6, R5 =  64, R6 =  66
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   3, R3 =   3, R4 =   6, R5 =  64, R6 =  66
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   2, R3 =   3, R4 =   6, R5 =  64, R6 =  66
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   2, R3 =   3, R4 =   6, R5 =  64, R6 =  66
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   2, R3 =   4, R4 =   6, R5 =  64, R6 =  66
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   2, R3 =   4, R4 =   6, R5 =  64, R6 =  66
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   2, R3 =   3, R4 =   6, R5 =  64, R6 =  66
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   1, R3 =   3, R4 =   6, R5 =  64, R6 =  66
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   1, R3 =   3, R4 =   6, R5 =  64, R6 =  66
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   1, R3 =   4, R4 =   6, R5 =  64, R6 =  66
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   1, R3 =   4, R4 =   6, R5 =  64, R6 =  66
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   1, R3 =   3, R4 =   6, R5 =  64, R6 =  66
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   0, R3 =   3, R4 =   6, R5 =  64, R6 =  66
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   0, R3 =   3, R4 =   6, R5 =  64, R6 =  66
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   0, R3 =   3, R4 =   6, R5 =  66, R6 =  66
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  18, R2 =   0, R3 =   3, R4 =   6, R5 =  66, R6 =  68
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   0, R3 =   3, R4 =   6, R5 =  66, R6 =  68
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   0, R3 =   3, R4 =   6, R5 =  66, R6 =  68
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   4, R3 =   3, R4 =   6, R5 =  66, R6 =  68
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   4, R3 =   4, R4 =   6, R5 =  66, R6 =  68
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   4, R3 =   4, R4 =   6, R5 =  66, R6 =  68
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   4, R3 =   3, R4 =   6, R5 =  66, R6 =  68
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   3, R3 =   3, R4 =   6, R5 =  66, R6 =  68
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   3, R3 =   3, R4 =   6, R5 =  66, R6 =  68
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   3, R3 =   4, R4 =   6, R5 =  66, R6 =  68
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   3, R3 =   4, R4 =   6, R5 =  66, R6 =  68
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   3, R3 =   3, R4 =   6, R5 =  66, R6 =  68
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   2, R3 =   3, R4 =   6, R5 =  66, R6 =  68
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   2, R3 =   3, R4 =   6, R5 =  66, R6 =  68
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   2, R3 =   4, R4 =   6, R5 =  66, R6 =  68
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   2, R3 =   4, R4 =   6, R5 =  66, R6 =  68
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   2, R3 =   3, R4 =   6, R5 =  66, R6 =  68
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   1, R3 =   3, R4 =   6, R5 =  66, R6 =  68
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   1, R3 =   3, R4 =   6, R5 =  66, R6 =  68
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   1, R3 =   4, R4 =   6, R5 =  66, R6 =  68
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   1, R3 =   4, R4 =   6, R5 =  66, R6 =  68
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   1, R3 =   3, R4 =   6, R5 =  66, R6 =  68
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   0, R3 =   3, R4 =   6, R5 =  66, R6 =  68
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   0, R3 =   3, R4 =   6, R5 =  66, R6 =  68
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   0, R3 =   3, R4 =   6, R5 =  68, R6 =  68
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  17, R2 =   0, R3 =   3, R4 =   6, R5 =  68, R6 =  70
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   0, R3 =   3, R4 =   6, R5 =  68, R6 =  70
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   0, R3 =   3, R4 =   6, R5 =  68, R6 =  70
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   4, R3 =   3, R4 =   6, R5 =  68, R6 =  70
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   4, R3 =   4, R4 =   6, R5 =  68, R6 =  70
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   4, R3 =   4, R4 =   6, R5 =  68, R6 =  70
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   4, R3 =   3, R4 =   6, R5 =  68, R6 =  70
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   3, R3 =   3, R4 =   6, R5 =  68, R6 =  70
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   3, R3 =   3, R4 =   6, R5 =  68, R6 =  70
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   3, R3 =   4, R4 =   6, R5 =  68, R6 =  70
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   3, R3 =   4, R4 =   6, R5 =  68, R6 =  70
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   3, R3 =   3, R4 =   6, R5 =  68, R6 =  70
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   2, R3 =   3, R4 =   6, R5 =  68, R6 =  70
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   2, R3 =   3, R4 =   6, R5 =  68, R6 =  70
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   2, R3 =   4, R4 =   6, R5 =  68, R6 =  70
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   2, R3 =   4, R4 =   6, R5 =  68, R6 =  70
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   2, R3 =   3, R4 =   6, R5 =  68, R6 =  70
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   1, R3 =   3, R4 =   6, R5 =  68, R6 =  70
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   1, R3 =   3, R4 =   6, R5 =  68, R6 =  70
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   1, R3 =   4, R4 =   6, R5 =  68, R6 =  70
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   1, R3 =   4, R4 =   6, R5 =  68, R6 =  70
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   1, R3 =   3, R4 =   6, R5 =  68, R6 =  70
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   0, R3 =   3, R4 =   6, R5 =  68, R6 =  70
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   0, R3 =   3, R4 =   6, R5 =  68, R6 =  70
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   0, R3 =   3, R4 =   6, R5 =  70, R6 =  70
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  16, R2 =   0, R3 =   3, R4 =   6, R5 =  70, R6 =  72
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   0, R3 =   3, R4 =   6, R5 =  70, R6 =  72
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   0, R3 =   3, R4 =   6, R5 =  70, R6 =  72
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   4, R3 =   3, R4 =   6, R5 =  70, R6 =  72
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   4, R3 =   4, R4 =   6, R5 =  70, R6 =  72
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   4, R3 =   4, R4 =   6, R5 =  70, R6 =  72
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   4, R3 =   3, R4 =   6, R5 =  70, R6 =  72
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   3, R3 =   3, R4 =   6, R5 =  70, R6 =  72
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   3, R3 =   3, R4 =   6, R5 =  70, R6 =  72
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   3, R3 =   4, R4 =   6, R5 =  70, R6 =  72
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   3, R3 =   4, R4 =   6, R5 =  70, R6 =  72
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   3, R3 =   3, R4 =   6, R5 =  70, R6 =  72
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   2, R3 =   3, R4 =   6, R5 =  70, R6 =  72
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   2, R3 =   3, R4 =   6, R5 =  70, R6 =  72
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   2, R3 =   4, R4 =   6, R5 =  70, R6 =  72
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   2, R3 =   4, R4 =   6, R5 =  70, R6 =  72
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   2, R3 =   3, R4 =   6, R5 =  70, R6 =  72
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   1, R3 =   3, R4 =   6, R5 =  70, R6 =  72
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   1, R3 =   3, R4 =   6, R5 =  70, R6 =  72
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   1, R3 =   4, R4 =   6, R5 =  70, R6 =  72
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   1, R3 =   4, R4 =   6, R5 =  70, R6 =  72
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   1, R3 =   3, R4 =   6, R5 =  70, R6 =  72
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   0, R3 =   3, R4 =   6, R5 =  70, R6 =  72
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   0, R3 =   3, R4 =   6, R5 =  70, R6 =  72
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   0, R3 =   3, R4 =   6, R5 =  72, R6 =  72
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  15, R2 =   0, R3 =   3, R4 =   6, R5 =  72, R6 =  74
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   0, R3 =   3, R4 =   6, R5 =  72, R6 =  74
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   0, R3 =   3, R4 =   6, R5 =  72, R6 =  74
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   4, R3 =   3, R4 =   6, R5 =  72, R6 =  74
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   4, R3 =   4, R4 =   6, R5 =  72, R6 =  74
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   4, R3 =   4, R4 =   6, R5 =  72, R6 =  74
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   4, R3 =   3, R4 =   6, R5 =  72, R6 =  74
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   3, R3 =   3, R4 =   6, R5 =  72, R6 =  74
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   3, R3 =   3, R4 =   6, R5 =  72, R6 =  74
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   3, R3 =   4, R4 =   6, R5 =  72, R6 =  74
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   3, R3 =   4, R4 =   6, R5 =  72, R6 =  74
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   3, R3 =   3, R4 =   6, R5 =  72, R6 =  74
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   2, R3 =   3, R4 =   6, R5 =  72, R6 =  74
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   2, R3 =   3, R4 =   6, R5 =  72, R6 =  74
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   2, R3 =   4, R4 =   6, R5 =  72, R6 =  74
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   2, R3 =   4, R4 =   6, R5 =  72, R6 =  74
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   2, R3 =   3, R4 =   6, R5 =  72, R6 =  74
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   1, R3 =   3, R4 =   6, R5 =  72, R6 =  74
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   1, R3 =   3, R4 =   6, R5 =  72, R6 =  74
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   1, R3 =   4, R4 =   6, R5 =  72, R6 =  74
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   1, R3 =   4, R4 =   6, R5 =  72, R6 =  74
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   1, R3 =   3, R4 =   6, R5 =  72, R6 =  74
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   0, R3 =   3, R4 =   6, R5 =  72, R6 =  74
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   0, R3 =   3, R4 =   6, R5 =  72, R6 =  74
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   0, R3 =   3, R4 =   6, R5 =  74, R6 =  74
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  14, R2 =   0, R3 =   3, R4 =   6, R5 =  74, R6 =  76
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   0, R3 =   3, R4 =   6, R5 =  74, R6 =  76
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   0, R3 =   3, R4 =   6, R5 =  74, R6 =  76
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   4, R3 =   3, R4 =   6, R5 =  74, R6 =  76
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   4, R3 =   4, R4 =   6, R5 =  74, R6 =  76
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   4, R3 =   4, R4 =   6, R5 =  74, R6 =  76
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   4, R3 =   3, R4 =   6, R5 =  74, R6 =  76
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   3, R3 =   3, R4 =   6, R5 =  74, R6 =  76
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   3, R3 =   3, R4 =   6, R5 =  74, R6 =  76
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   3, R3 =   4, R4 =   6, R5 =  74, R6 =  76
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   3, R3 =   4, R4 =   6, R5 =  74, R6 =  76
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   3, R3 =   3, R4 =   6, R5 =  74, R6 =  76
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   2, R3 =   3, R4 =   6, R5 =  74, R6 =  76
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   2, R3 =   3, R4 =   6, R5 =  74, R6 =  76
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   2, R3 =   4, R4 =   6, R5 =  74, R6 =  76
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   2, R3 =   4, R4 =   6, R5 =  74, R6 =  76
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   2, R3 =   3, R4 =   6, R5 =  74, R6 =  76
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   1, R3 =   3, R4 =   6, R5 =  74, R6 =  76
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   1, R3 =   3, R4 =   6, R5 =  74, R6 =  76
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   1, R3 =   4, R4 =   6, R5 =  74, R6 =  76
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   1, R3 =   4, R4 =   6, R5 =  74, R6 =  76
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   1, R3 =   3, R4 =   6, R5 =  74, R6 =  76
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   0, R3 =   3, R4 =   6, R5 =  74, R6 =  76
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   0, R3 =   3, R4 =   6, R5 =  74, R6 =  76
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   0, R3 =   3, R4 =   6, R5 =  76, R6 =  76
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  13, R2 =   0, R3 =   3, R4 =   6, R5 =  76, R6 =  78
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   0, R3 =   3, R4 =   6, R5 =  76, R6 =  78
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   0, R3 =   3, R4 =   6, R5 =  76, R6 =  78
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   4, R3 =   3, R4 =   6, R5 =  76, R6 =  78
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   4, R3 =   4, R4 =   6, R5 =  76, R6 =  78
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   4, R3 =   4, R4 =   6, R5 =  76, R6 =  78
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   4, R3 =   3, R4 =   6, R5 =  76, R6 =  78
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   3, R3 =   3, R4 =   6, R5 =  76, R6 =  78
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   3, R3 =   3, R4 =   6, R5 =  76, R6 =  78
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   3, R3 =   4, R4 =   6, R5 =  76, R6 =  78
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   3, R3 =   4, R4 =   6, R5 =  76, R6 =  78
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   3, R3 =   3, R4 =   6, R5 =  76, R6 =  78
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   2, R3 =   3, R4 =   6, R5 =  76, R6 =  78
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   2, R3 =   3, R4 =   6, R5 =  76, R6 =  78
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   2, R3 =   4, R4 =   6, R5 =  76, R6 =  78
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   2, R3 =   4, R4 =   6, R5 =  76, R6 =  78
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   2, R3 =   3, R4 =   6, R5 =  76, R6 =  78
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   1, R3 =   3, R4 =   6, R5 =  76, R6 =  78
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   1, R3 =   3, R4 =   6, R5 =  76, R6 =  78
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   1, R3 =   4, R4 =   6, R5 =  76, R6 =  78
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   1, R3 =   4, R4 =   6, R5 =  76, R6 =  78
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   1, R3 =   3, R4 =   6, R5 =  76, R6 =  78
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   0, R3 =   3, R4 =   6, R5 =  76, R6 =  78
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   0, R3 =   3, R4 =   6, R5 =  76, R6 =  78
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   0, R3 =   3, R4 =   6, R5 =  78, R6 =  78
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  12, R2 =   0, R3 =   3, R4 =   6, R5 =  78, R6 =  80
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   0, R3 =   3, R4 =   6, R5 =  78, R6 =  80
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   0, R3 =   3, R4 =   6, R5 =  78, R6 =  80
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   4, R3 =   3, R4 =   6, R5 =  78, R6 =  80
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   4, R3 =   4, R4 =   6, R5 =  78, R6 =  80
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   4, R3 =   4, R4 =   6, R5 =  78, R6 =  80
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   4, R3 =   3, R4 =   6, R5 =  78, R6 =  80
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   3, R3 =   3, R4 =   6, R5 =  78, R6 =  80
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   3, R3 =   3, R4 =   6, R5 =  78, R6 =  80
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   3, R3 =   4, R4 =   6, R5 =  78, R6 =  80
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   3, R3 =   4, R4 =   6, R5 =  78, R6 =  80
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   3, R3 =   3, R4 =   6, R5 =  78, R6 =  80
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   2, R3 =   3, R4 =   6, R5 =  78, R6 =  80
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   2, R3 =   3, R4 =   6, R5 =  78, R6 =  80
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   2, R3 =   4, R4 =   6, R5 =  78, R6 =  80
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   2, R3 =   4, R4 =   6, R5 =  78, R6 =  80
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   2, R3 =   3, R4 =   6, R5 =  78, R6 =  80
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   1, R3 =   3, R4 =   6, R5 =  78, R6 =  80
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   1, R3 =   3, R4 =   6, R5 =  78, R6 =  80
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   1, R3 =   4, R4 =   6, R5 =  78, R6 =  80
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   1, R3 =   4, R4 =   6, R5 =  78, R6 =  80
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   1, R3 =   3, R4 =   6, R5 =  78, R6 =  80
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   0, R3 =   3, R4 =   6, R5 =  78, R6 =  80
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   0, R3 =   3, R4 =   6, R5 =  78, R6 =  80
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   0, R3 =   3, R4 =   6, R5 =  80, R6 =  80
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  11, R2 =   0, R3 =   3, R4 =   6, R5 =  80, R6 =  82
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   0, R3 =   3, R4 =   6, R5 =  80, R6 =  82
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   0, R3 =   3, R4 =   6, R5 =  80, R6 =  82
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   4, R3 =   3, R4 =   6, R5 =  80, R6 =  82
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   4, R3 =   4, R4 =   6, R5 =  80, R6 =  82
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   4, R3 =   4, R4 =   6, R5 =  80, R6 =  82
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   4, R3 =   3, R4 =   6, R5 =  80, R6 =  82
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   3, R3 =   3, R4 =   6, R5 =  80, R6 =  82
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   3, R3 =   3, R4 =   6, R5 =  80, R6 =  82
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   3, R3 =   4, R4 =   6, R5 =  80, R6 =  82
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   3, R3 =   4, R4 =   6, R5 =  80, R6 =  82
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   3, R3 =   3, R4 =   6, R5 =  80, R6 =  82
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   2, R3 =   3, R4 =   6, R5 =  80, R6 =  82
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   2, R3 =   3, R4 =   6, R5 =  80, R6 =  82
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   2, R3 =   4, R4 =   6, R5 =  80, R6 =  82
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   2, R3 =   4, R4 =   6, R5 =  80, R6 =  82
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   2, R3 =   3, R4 =   6, R5 =  80, R6 =  82
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   1, R3 =   3, R4 =   6, R5 =  80, R6 =  82
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   1, R3 =   3, R4 =   6, R5 =  80, R6 =  82
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   1, R3 =   4, R4 =   6, R5 =  80, R6 =  82
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   1, R3 =   4, R4 =   6, R5 =  80, R6 =  82
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   1, R3 =   3, R4 =   6, R5 =  80, R6 =  82
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   0, R3 =   3, R4 =   6, R5 =  80, R6 =  82
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   0, R3 =   3, R4 =   6, R5 =  80, R6 =  82
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   0, R3 =   3, R4 =   6, R5 =  82, R6 =  82
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =  10, R2 =   0, R3 =   3, R4 =   6, R5 =  82, R6 =  84
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   0, R3 =   3, R4 =   6, R5 =  82, R6 =  84
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   0, R3 =   3, R4 =   6, R5 =  82, R6 =  84
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   4, R3 =   3, R4 =   6, R5 =  82, R6 =  84
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   4, R3 =   4, R4 =   6, R5 =  82, R6 =  84
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   4, R3 =   4, R4 =   6, R5 =  82, R6 =  84
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   4, R3 =   3, R4 =   6, R5 =  82, R6 =  84
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   3, R3 =   3, R4 =   6, R5 =  82, R6 =  84
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   3, R3 =   3, R4 =   6, R5 =  82, R6 =  84
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   3, R3 =   4, R4 =   6, R5 =  82, R6 =  84
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   3, R3 =   4, R4 =   6, R5 =  82, R6 =  84
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   3, R3 =   3, R4 =   6, R5 =  82, R6 =  84
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   2, R3 =   3, R4 =   6, R5 =  82, R6 =  84
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   2, R3 =   3, R4 =   6, R5 =  82, R6 =  84
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   2, R3 =   4, R4 =   6, R5 =  82, R6 =  84
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   2, R3 =   4, R4 =   6, R5 =  82, R6 =  84
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   2, R3 =   3, R4 =   6, R5 =  82, R6 =  84
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   1, R3 =   3, R4 =   6, R5 =  82, R6 =  84
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   1, R3 =   3, R4 =   6, R5 =  82, R6 =  84
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   1, R3 =   4, R4 =   6, R5 =  82, R6 =  84
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   1, R3 =   4, R4 =   6, R5 =  82, R6 =  84
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   1, R3 =   3, R4 =   6, R5 =  82, R6 =  84
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   0, R3 =   3, R4 =   6, R5 =  82, R6 =  84
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   0, R3 =   3, R4 =   6, R5 =  82, R6 =  84
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   0, R3 =   3, R4 =   6, R5 =  84, R6 =  84
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   9, R2 =   0, R3 =   3, R4 =   6, R5 =  84, R6 =  86
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   0, R3 =   3, R4 =   6, R5 =  84, R6 =  86
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   0, R3 =   3, R4 =   6, R5 =  84, R6 =  86
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   4, R3 =   3, R4 =   6, R5 =  84, R6 =  86
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   4, R3 =   4, R4 =   6, R5 =  84, R6 =  86
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   4, R3 =   4, R4 =   6, R5 =  84, R6 =  86
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   4, R3 =   3, R4 =   6, R5 =  84, R6 =  86
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   3, R3 =   3, R4 =   6, R5 =  84, R6 =  86
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   3, R3 =   3, R4 =   6, R5 =  84, R6 =  86
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   3, R3 =   4, R4 =   6, R5 =  84, R6 =  86
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   3, R3 =   4, R4 =   6, R5 =  84, R6 =  86
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   3, R3 =   3, R4 =   6, R5 =  84, R6 =  86
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   2, R3 =   3, R4 =   6, R5 =  84, R6 =  86
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   2, R3 =   3, R4 =   6, R5 =  84, R6 =  86
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   2, R3 =   4, R4 =   6, R5 =  84, R6 =  86
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   2, R3 =   4, R4 =   6, R5 =  84, R6 =  86
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   2, R3 =   3, R4 =   6, R5 =  84, R6 =  86
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   1, R3 =   3, R4 =   6, R5 =  84, R6 =  86
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   1, R3 =   3, R4 =   6, R5 =  84, R6 =  86
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   1, R3 =   4, R4 =   6, R5 =  84, R6 =  86
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   1, R3 =   4, R4 =   6, R5 =  84, R6 =  86
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   1, R3 =   3, R4 =   6, R5 =  84, R6 =  86
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   0, R3 =   3, R4 =   6, R5 =  84, R6 =  86
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   0, R3 =   3, R4 =   6, R5 =  84, R6 =  86
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   0, R3 =   3, R4 =   6, R5 =  86, R6 =  86
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   8, R2 =   0, R3 =   3, R4 =   6, R5 =  86, R6 =  88
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   0, R3 =   3, R4 =   6, R5 =  86, R6 =  88
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   0, R3 =   3, R4 =   6, R5 =  86, R6 =  88
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   4, R3 =   3, R4 =   6, R5 =  86, R6 =  88
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   4, R3 =   4, R4 =   6, R5 =  86, R6 =  88
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   4, R3 =   4, R4 =   6, R5 =  86, R6 =  88
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   4, R3 =   3, R4 =   6, R5 =  86, R6 =  88
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   3, R3 =   3, R4 =   6, R5 =  86, R6 =  88
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   3, R3 =   3, R4 =   6, R5 =  86, R6 =  88
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   3, R3 =   4, R4 =   6, R5 =  86, R6 =  88
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   3, R3 =   4, R4 =   6, R5 =  86, R6 =  88
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   3, R3 =   3, R4 =   6, R5 =  86, R6 =  88
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   2, R3 =   3, R4 =   6, R5 =  86, R6 =  88
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   2, R3 =   3, R4 =   6, R5 =  86, R6 =  88
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   2, R3 =   4, R4 =   6, R5 =  86, R6 =  88
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   2, R3 =   4, R4 =   6, R5 =  86, R6 =  88
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   2, R3 =   3, R4 =   6, R5 =  86, R6 =  88
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   1, R3 =   3, R4 =   6, R5 =  86, R6 =  88
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   1, R3 =   3, R4 =   6, R5 =  86, R6 =  88
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   1, R3 =   4, R4 =   6, R5 =  86, R6 =  88
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   1, R3 =   4, R4 =   6, R5 =  86, R6 =  88
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   1, R3 =   3, R4 =   6, R5 =  86, R6 =  88
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   0, R3 =   3, R4 =   6, R5 =  86, R6 =  88
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   0, R3 =   3, R4 =   6, R5 =  86, R6 =  88
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   0, R3 =   3, R4 =   6, R5 =  88, R6 =  88
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   7, R2 =   0, R3 =   3, R4 =   6, R5 =  88, R6 =  90
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   0, R3 =   3, R4 =   6, R5 =  88, R6 =  90
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   0, R3 =   3, R4 =   6, R5 =  88, R6 =  90
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   4, R3 =   3, R4 =   6, R5 =  88, R6 =  90
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   4, R3 =   4, R4 =   6, R5 =  88, R6 =  90
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   4, R3 =   4, R4 =   6, R5 =  88, R6 =  90
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   4, R3 =   3, R4 =   6, R5 =  88, R6 =  90
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   3, R3 =   3, R4 =   6, R5 =  88, R6 =  90
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   3, R3 =   3, R4 =   6, R5 =  88, R6 =  90
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   3, R3 =   4, R4 =   6, R5 =  88, R6 =  90
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   3, R3 =   4, R4 =   6, R5 =  88, R6 =  90
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   3, R3 =   3, R4 =   6, R5 =  88, R6 =  90
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   2, R3 =   3, R4 =   6, R5 =  88, R6 =  90
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   2, R3 =   3, R4 =   6, R5 =  88, R6 =  90
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   2, R3 =   4, R4 =   6, R5 =  88, R6 =  90
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   2, R3 =   4, R4 =   6, R5 =  88, R6 =  90
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   2, R3 =   3, R4 =   6, R5 =  88, R6 =  90
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   1, R3 =   3, R4 =   6, R5 =  88, R6 =  90
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   1, R3 =   3, R4 =   6, R5 =  88, R6 =  90
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   1, R3 =   4, R4 =   6, R5 =  88, R6 =  90
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   1, R3 =   4, R4 =   6, R5 =  88, R6 =  90
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   1, R3 =   3, R4 =   6, R5 =  88, R6 =  90
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   0, R3 =   3, R4 =   6, R5 =  88, R6 =  90
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   0, R3 =   3, R4 =   6, R5 =  88, R6 =  90
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   0, R3 =   3, R4 =   6, R5 =  90, R6 =  90
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   6, R2 =   0, R3 =   3, R4 =   6, R5 =  90, R6 =  92
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   0, R3 =   3, R4 =   6, R5 =  90, R6 =  92
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   0, R3 =   3, R4 =   6, R5 =  90, R6 =  92
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   4, R3 =   3, R4 =   6, R5 =  90, R6 =  92
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   4, R3 =   4, R4 =   6, R5 =  90, R6 =  92
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   4, R3 =   4, R4 =   6, R5 =  90, R6 =  92
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   4, R3 =   3, R4 =   6, R5 =  90, R6 =  92
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   3, R3 =   3, R4 =   6, R5 =  90, R6 =  92
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   3, R3 =   3, R4 =   6, R5 =  90, R6 =  92
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   3, R3 =   4, R4 =   6, R5 =  90, R6 =  92
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   3, R3 =   4, R4 =   6, R5 =  90, R6 =  92
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   3, R3 =   3, R4 =   6, R5 =  90, R6 =  92
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   2, R3 =   3, R4 =   6, R5 =  90, R6 =  92
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   2, R3 =   3, R4 =   6, R5 =  90, R6 =  92
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   2, R3 =   4, R4 =   6, R5 =  90, R6 =  92
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   2, R3 =   4, R4 =   6, R5 =  90, R6 =  92
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   2, R3 =   3, R4 =   6, R5 =  90, R6 =  92
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   1, R3 =   3, R4 =   6, R5 =  90, R6 =  92
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   1, R3 =   3, R4 =   6, R5 =  90, R6 =  92
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   1, R3 =   4, R4 =   6, R5 =  90, R6 =  92
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   1, R3 =   4, R4 =   6, R5 =  90, R6 =  92
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   1, R3 =   3, R4 =   6, R5 =  90, R6 =  92
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   0, R3 =   3, R4 =   6, R5 =  90, R6 =  92
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   0, R3 =   3, R4 =   6, R5 =  90, R6 =  92
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   0, R3 =   3, R4 =   6, R5 =  92, R6 =  92
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   5, R2 =   0, R3 =   3, R4 =   6, R5 =  92, R6 =  94
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   0, R3 =   3, R4 =   6, R5 =  92, R6 =  94
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   0, R3 =   3, R4 =   6, R5 =  92, R6 =  94
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   4, R3 =   3, R4 =   6, R5 =  92, R6 =  94
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   4, R3 =   4, R4 =   6, R5 =  92, R6 =  94
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   4, R3 =   4, R4 =   6, R5 =  92, R6 =  94
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   4, R3 =   3, R4 =   6, R5 =  92, R6 =  94
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   3, R3 =   3, R4 =   6, R5 =  92, R6 =  94
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   3, R3 =   3, R4 =   6, R5 =  92, R6 =  94
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   3, R3 =   4, R4 =   6, R5 =  92, R6 =  94
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   3, R3 =   4, R4 =   6, R5 =  92, R6 =  94
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   3, R3 =   3, R4 =   6, R5 =  92, R6 =  94
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   2, R3 =   3, R4 =   6, R5 =  92, R6 =  94
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   2, R3 =   3, R4 =   6, R5 =  92, R6 =  94
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   2, R3 =   4, R4 =   6, R5 =  92, R6 =  94
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   2, R3 =   4, R4 =   6, R5 =  92, R6 =  94
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   2, R3 =   3, R4 =   6, R5 =  92, R6 =  94
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   1, R3 =   3, R4 =   6, R5 =  92, R6 =  94
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   1, R3 =   3, R4 =   6, R5 =  92, R6 =  94
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   1, R3 =   4, R4 =   6, R5 =  92, R6 =  94
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   1, R3 =   4, R4 =   6, R5 =  92, R6 =  94
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   1, R3 =   3, R4 =   6, R5 =  92, R6 =  94
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   0, R3 =   3, R4 =   6, R5 =  92, R6 =  94
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   0, R3 =   3, R4 =   6, R5 =  92, R6 =  94
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   0, R3 =   3, R4 =   6, R5 =  94, R6 =  94
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   4, R2 =   0, R3 =   3, R4 =   6, R5 =  94, R6 =  96
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   0, R3 =   3, R4 =   6, R5 =  94, R6 =  96
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   0, R3 =   3, R4 =   6, R5 =  94, R6 =  96
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   4, R3 =   3, R4 =   6, R5 =  94, R6 =  96
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   4, R3 =   4, R4 =   6, R5 =  94, R6 =  96
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   4, R3 =   4, R4 =   6, R5 =  94, R6 =  96
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   4, R3 =   3, R4 =   6, R5 =  94, R6 =  96
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   3, R3 =   3, R4 =   6, R5 =  94, R6 =  96
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   3, R3 =   3, R4 =   6, R5 =  94, R6 =  96
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   3, R3 =   4, R4 =   6, R5 =  94, R6 =  96
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   3, R3 =   4, R4 =   6, R5 =  94, R6 =  96
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   3, R3 =   3, R4 =   6, R5 =  94, R6 =  96
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   2, R3 =   3, R4 =   6, R5 =  94, R6 =  96
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   2, R3 =   3, R4 =   6, R5 =  94, R6 =  96
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   2, R3 =   4, R4 =   6, R5 =  94, R6 =  96
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   2, R3 =   4, R4 =   6, R5 =  94, R6 =  96
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   2, R3 =   3, R4 =   6, R5 =  94, R6 =  96
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   1, R3 =   3, R4 =   6, R5 =  94, R6 =  96
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   1, R3 =   3, R4 =   6, R5 =  94, R6 =  96
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   1, R3 =   4, R4 =   6, R5 =  94, R6 =  96
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   1, R3 =   4, R4 =   6, R5 =  94, R6 =  96
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   1, R3 =   3, R4 =   6, R5 =  94, R6 =  96
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   0, R3 =   3, R4 =   6, R5 =  94, R6 =  96
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   0, R3 =   3, R4 =   6, R5 =  94, R6 =  96
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   0, R3 =   3, R4 =   6, R5 =  96, R6 =  96
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   3, R2 =   0, R3 =   3, R4 =   6, R5 =  96, R6 =  98
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   0, R3 =   3, R4 =   6, R5 =  96, R6 =  98
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   0, R3 =   3, R4 =   6, R5 =  96, R6 =  98
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   4, R3 =   3, R4 =   6, R5 =  96, R6 =  98
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   4, R3 =   4, R4 =   6, R5 =  96, R6 =  98
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   4, R3 =   4, R4 =   6, R5 =  96, R6 =  98
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   4, R3 =   3, R4 =   6, R5 =  96, R6 =  98
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   3, R3 =   3, R4 =   6, R5 =  96, R6 =  98
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   3, R3 =   3, R4 =   6, R5 =  96, R6 =  98
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   3, R3 =   4, R4 =   6, R5 =  96, R6 =  98
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   3, R3 =   4, R4 =   6, R5 =  96, R6 =  98
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   3, R3 =   3, R4 =   6, R5 =  96, R6 =  98
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   2, R3 =   3, R4 =   6, R5 =  96, R6 =  98
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   2, R3 =   3, R4 =   6, R5 =  96, R6 =  98
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   2, R3 =   4, R4 =   6, R5 =  96, R6 =  98
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   2, R3 =   4, R4 =   6, R5 =  96, R6 =  98
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   2, R3 =   3, R4 =   6, R5 =  96, R6 =  98
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   1, R3 =   3, R4 =   6, R5 =  96, R6 =  98
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   1, R3 =   3, R4 =   6, R5 =  96, R6 =  98
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   1, R3 =   4, R4 =   6, R5 =  96, R6 =  98
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   1, R3 =   4, R4 =   6, R5 =  96, R6 =  98
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   1, R3 =   3, R4 =   6, R5 =  96, R6 =  98
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   0, R3 =   3, R4 =   6, R5 =  96, R6 =  98
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   0, R3 =   3, R4 =   6, R5 =  96, R6 =  98
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   0, R3 =   3, R4 =   6, R5 =  98, R6 =  98
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   2, R2 =   0, R3 =   3, R4 =   6, R5 =  98, R6 = 100
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   0, R3 =   3, R4 =   6, R5 =  98, R6 = 100
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   0, R3 =   3, R4 =   6, R5 =  98, R6 = 100
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   4, R3 =   3, R4 =   6, R5 =  98, R6 = 100
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   4, R3 =   4, R4 =   6, R5 =  98, R6 = 100
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   4, R3 =   4, R4 =   6, R5 =  98, R6 = 100
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   4, R3 =   3, R4 =   6, R5 =  98, R6 = 100
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   3, R3 =   3, R4 =   6, R5 =  98, R6 = 100
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   3, R3 =   3, R4 =   6, R5 =  98, R6 = 100
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   3, R3 =   4, R4 =   6, R5 =  98, R6 = 100
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   3, R3 =   4, R4 =   6, R5 =  98, R6 = 100
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   3, R3 =   3, R4 =   6, R5 =  98, R6 = 100
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   2, R3 =   3, R4 =   6, R5 =  98, R6 = 100
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   2, R3 =   3, R4 =   6, R5 =  98, R6 = 100
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   2, R3 =   4, R4 =   6, R5 =  98, R6 = 100
+PC:   16 |  ADD R4, R3, #2                  |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   2, R3 =   4, R4 =   6, R5 =  98, R6 = 100
+PC:   20 |  ADD R3, R0, #3                  |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   2, R3 =   3, R4 =   6, R5 =  98, R6 = 100
+PC:   24 |  SUBS R2, R2, #1                 |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   1, R3 =   3, R4 =   6, R5 =  98, R6 = 100
+PC:   28 |  BNE FOR_INNER                   |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   1, R3 =   3, R4 =   6, R5 =  98, R6 = 100
+PC:   32 |  ADD R5, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   1, R3 =   4, R4 =   6, R5 =  98, R6 = 100
+PC:   36 |  ADD R6, R5, #2                  |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   1, R3 =   4, R4 =   6, R5 =  98, R6 = 100
+PC:   40 |  SUBS R1, R1, #1                 |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   1, R3 =   3, R4 =   6, R5 =  98, R6 = 100
+PC:   44 |  BNE FOR_OUTER                   |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   0, R3 =   3, R4 =   6, R5 =  98, R6 = 100
+PC:    8 |  OUTER_LOOP: ADD R2, R0, #4      |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   0, R3 =   3, R4 =   6, R5 =  98, R6 = 100
+PC:   12 |  INNER_LOOP: ADD R3, R3, #1      |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 100
+PC:   48 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   1, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:   52 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:   56 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:   60 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:   64 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:   68 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:   72 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:   76 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:   80 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:   84 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:   88 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:   92 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:   96 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:  100 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:  104 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:  108 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:  112 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:  116 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:  120 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:  124 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:  128 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:  132 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:  136 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:  140 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:  144 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
+PC:  148 |  XXXX XXXX                       |   REGISTER FILE: R0 =   0, R1 =   0, R2 =   0, R3 =   3, R4 =   6, R5 = 100, R6 = 102
